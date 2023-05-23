@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.test_1.test.HelloController">
+    <top>
+        <VBox alignment="CENTER" spacing="20">
+        <MenuBar>
+            <Menu text="Menu">
+                <MenuItem text="How to be Used"/>
+                <MenuItem text="Data Bases Included"/>
+                <MenuItem text="All About SODECOTON"/>
+            </Menu>
+            <Menu text="Help">
+                <MenuItem text="About"/>
+            </Menu>
+        </MenuBar>
+        <HBox alignment="CENTER" spacing="20">
+            <Button fx:id="button1" text="PostgreSQL" />
+            <Button fx:id="button2" text="MySQL" />
+            <Button fx:id="button3" text="Oracle" />
+        </HBox>
+        </VBox>
+    </top>
+    <center>
+        <VBox alignment="CENTER" spacing="20">
+            <Label fx:id="label1" text="PostgreSQL" />
+            <Label fx:id="label2" text="MySQL" />
+            <Label fx:id="label3" text="Oracle" />
+        </VBox>
+    </center>
+
+</BorderPane>
